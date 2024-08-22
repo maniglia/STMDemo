@@ -148,7 +148,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="KSociety.SharpCubeProgrammer">
+    <PackageReference Include="KSociety.SharpCubeProgrammer" GeneratePathProperty="true">
+      <IncludeAssets>all</IncludeAssets>
       <Version>0.3.32</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging">
